@@ -3,10 +3,10 @@
 // NOTE! Pay close attention to creating code with good and consistent code style.
 
 // 1. Create an array that contains three strings.
-let arrayOfString = ["string 1", "string 2", `string3 `];
+const arrayOfString = ["string 1", "string 2", "string3"];
 
 // 2. Create an array that contains one string, one number and one boolean.
-let arrayOfSomePrimitive = ["string", 01, true];
+const arrayOfSomePrimitive = ["string", 01, true];
 
 // 3. Create an array that contains three empty arrays.
 const emptyArrays = [[], [], []];
@@ -16,28 +16,28 @@ const emptyArrays = [[], [], []];
 const emptyObject = {};
 
 // 5. Create an object with three properties: id, email, password.
-let user = {
+const user = {
     id: 548,
     email: "me@gm.co.uk",
     password: 00001,
 };
 
 // 6. Create an array that contains three objects. All objects should have a width and a height property.
-let arrayOfObjects = [
+const arrayOfObjects = [
     { height: "px", width: "px" },
     { height: "px", width: "px" },
     { height: "px", width: "px" },
 ];
 
 // 7. Create an object that contains three properties: a string, an array and an object. Invent your own property names and values.
-let threePropObject = {
+const threePropObject = {
   name: "Unknown",
   addresses: [street = "", city = ""],
   Obj: {}
 }
 
 // 8. Print the `type` of a variable that has an array value.
-let showArray = [1,2];
+const showArray = [1,2];
 console.log(typeof showArray);
 
 // 9. Print the `type` of a variable that has an object value.
@@ -61,7 +61,6 @@ console.log(arrayOfDataType.length);
 
 // 10.5. Take out one thing from the START of the array.
 arrayOfDataType.shift();
-
 
 // 10.6. Take out one the 2nd thing from the array.
 arrayOfDataType.splice(1, 1)
